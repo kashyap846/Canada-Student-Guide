@@ -9,6 +9,7 @@ public class SettingsFragment extends PreferenceFragment {
     @Override
     public void onCreate(Bundle saved){
         super.onCreate(saved);
+        addPreferencesFromResource(R.xml.preferences);
     }
 
 }
