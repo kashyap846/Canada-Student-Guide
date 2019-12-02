@@ -1,19 +1,74 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    android:orientation="vertical"
+    tools:context="com.example.cannada_student_guide.MainActivity">
+<!--    android:background="@color/colorBackground"-->
+<!--    android:paddingBottom="@dimen/activity_vertical_margin"-->
+<!--    android:paddingLeft="@dimen/activity_horizontal_margin"-->
+<!--    android:paddingRight="@dimen/activity_horizontal_margin"-->
+<!--    android:paddingTop="@dimen/activity_vertical_margin"-->
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <LinearLayout
+        android:id="@+id/tip1LinearLayout"
+        style="@style/closedMenuLinearLayout"
+        android:clickable="true"
+        android:onClick="toggleContents">
+
+
+
+        <TextView
+            android:id="@+id/tip1Title"
+            style="@style/closedMenuTextView"
+            android:layout_weight="1"
+            android:text="@string/guide1"/>
+        <ImageButton
+            android:id="@+id/tip1ImageButton"
+            style="@style/imageButtons"
+            android:src="@drawable/ic_keyboard_arrow_down_black_24dp"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="20"
+        android:id="@+id/guide1Body"></ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/colorAccent"
+        android:visibility="visible"/>
+
+    <LinearLayout
+        android:id="@+id/tip2LinearLayout"
+        style="@style/closedMenuLinearLayout"
+        android:clickable="true"
+        android:onClick="toggleContents">
+
+
+
+        <TextView
+            android:id="@+id/tip2Title"
+            style="@style/closedMenuTextView"
+            android:layout_weight="1"
+            android:text="@string/guide2"/>
+        <ImageButton
+            android:id="@+id/tip2ImageButton"
+            style="@style/imageButtons"
+            android:src="@drawable/ic_keyboard_arrow_down_black_24dp"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="20"
+        android:id="@+id/guide2Body"></ScrollView>
+
+</LinearLayout>

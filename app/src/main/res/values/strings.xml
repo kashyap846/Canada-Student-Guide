@@ -6,20 +6,13 @@
 
 
     <!--Settings -->
-    <string name="rounding_title">Rounding?</string>
-    <string-array name="rounding_keys">
-        <item>None</item>
-        <item>Round Tip</item>
-        <item>Round Total</item>
-    </string-array>
-    <string name="language">language</string>
-    <string name="language_summary">Change language preferences</string>
-    <string name="default_value">English</string>
-    <string-array name="languages">
-        <item>Telugu</item>
-        <item>English</item>
-        <item>Hindi</item>
-    </string-array>
+
+<!--    <string-array name="rounding_keys">-->
+<!--        <item>None</item>-->
+<!--        <item>Round Tip</item>-->
+<!--        <item>Round Total</item>-->
+<!--    </string-array>-->
+
 
 
     <!--About -->
@@ -29,4 +22,53 @@
     <!--Themes -->
     <string name="theme">Change Theme</string>
     <string name="theme_summary">Add colorful themes</string>
+
+    <!--Languages -->
+
+    <string name="language">Change Language</string>
+    <string name="language_summary">Change language preferences</string>
+    <string name="default_value">English</string>
+    <string name="language_title">Language?</string>
+    <string-array name="languages">
+
+        <item>English</item>
+        <item>Telugu</item>
+        <item>हिंदी</item>
+    </string-array>
+    <string-array name="languages_values">
+
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+
+    <!--activity main-->
+    <string name="title">Canada Student Guide</string>
+    <string name="guide1">Enter your details</string>
+    <string name="guide2">IELTS Test Details</string>
+
+    <!-- preferences-->
+    <string name="Save_Preferences_summary">Select the check box to save your preferences and values</string>
+    <string name="Save_Preferences">Save my preferences</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

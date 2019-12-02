@@ -1,15 +1,31 @@
 package com.example.cannada_student_guide;
 
 
+import android.content.SharedPreferences;
 
 import android.os.Bundle;
+
+
+
 import android.preference.PreferenceFragment;
+import android.preference.PreferenceManager;
+
+
+
+
 public class SettingsFragment extends PreferenceFragment {
 
-    @Override
-    public void onCreate(Bundle saved){
-        super.onCreate(saved);
-        addPreferencesFromResource(R.xml.preferences);
-    }
 
+    private SharedPreferences prefs;
+    private boolean rememberPercent;
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        //Instead of using a layout, we can use the preferences.xml file as a layout
+        // which did a lot more work for us
+        addPreferencesFromResource(R.xml.preferences);
+        prefs = PreferenceManager.getDefaultSharedPreferences(getActivity());
+    }
 }
