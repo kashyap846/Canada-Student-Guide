@@ -296,6 +296,114 @@
     </ScrollView>
     <!-- Layout 3  end******************************************************************-->
 
+    <!-- Layout 4  start******************************************************************-->
+    <LinearLayout
+        android:id="@+id/guide4Layout"
+        style="@style/closedMenuLinearLayout"
+        android:clickable="true"
+        android:onClick="toggleContents">
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/closedMenuHeaderView"
+            android:checked="false" />
 
+
+        <TextView
+            android:id="@+id/guideTitle4"
+            style="@style/closedMenuHeaderView"
+            android:layout_weight="1"
+            android:text="@string/guide4"/>
+        <ImageButton
+            android:id="@+id/imageButton4"
+            style="@style/imageButtons"
+            android:src="@drawable/ic_keyboard_arrow_down_black_24dp"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="20"
+        android:id="@+id/guide4Body">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/subguide41"
+                    style="@style/closedMenuTextView"
+                    android:layout_weight="1"
+                    android:text="@string/guide41"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/subguide42"
+                    style="@style/closedMenuTextView"
+                    android:layout_weight="1"
+                    android:text="@string/guide42"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/subguide43"
+                    style="@style/closedMenuTextView"
+                    android:layout_weight="1"
+                    android:text="@string/guide43"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/subguide44"
+                    style="@style/closedMenuTextView"
+                    android:layout_weight="1"
+                    android:text="@string/guide43"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/subguide45"
+                    style="@style/closedMenuTextView"
+                    android:layout_weight="1"
+                    android:text="@string/guide43"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/subguide46"
+                    style="@style/closedMenuTextView"
+                    android:layout_weight="1"
+                    android:text="@string/guide43"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/subguide47"
+                    style="@style/closedMenuTextView"
+                    android:layout_weight="1"
+                    android:text="@string/guide43"/>
+            </TableRow>
+            <TableRow><Space
+                android:layout_width="1dp"
+                android:layout_height="30dp"/></TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/subguide48"
+                    style="@style/highlightContent"
+                    android:layout_weight="1"
+                    android:text="@string/guide19"/>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/colorAccent"
+        android:visibility="visible"/>
+    <!-- Layout 4 end******************************************************************-->
 
 </LinearLayout>

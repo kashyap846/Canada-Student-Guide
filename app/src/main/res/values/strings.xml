@@ -48,7 +48,7 @@
     <string name="guide1">IELTS Test Details</string>
     <string name="guide2">Decide On University</string>
     <string name="guide3">Guaranteed Investment Certificate(GIC)</string>
-
+    <string name="guide4">Start your application for student visa</string>
 
     <string name="guide11">Steps for applying IELTS</string>
     <string name="guide12">1.	Log on to www.ieltsidpindia.com.</string>
@@ -74,7 +74,16 @@
 </string>
 
 
-
+    <string name="guide41">1.) Apply online for your Canadian student visa, on the Citizenship and Immigration Canada (CIC) website before you arrive in Canada.</string>
+    <string name="guide42">2.) In countries with limited internet access it\'s also possible to apply for visa on paper.
+    </string>
+    <string name="guide43">3.) Provide an acceptance letter from a designated learning institution (a university recognized by the Canadian government).
+    </string>
+    <string name="guide44">4.) Deliver proof of sufficient financial resources to support your studies in Canada (tuition fees and living expenses).
+    </string>
+    <string name="guide45">5.) Have no criminal record.</string>
+    <string name="guide46">6.)	Pay the test fee by credit card (Master / Visa)</string>
+    <string name="guide47">7.) Submit clinical records that state you are in good health and complete medical examinations if required</string>
 
 
 
