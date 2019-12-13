@@ -15,15 +15,17 @@ import android.widget.Toast;
 import com.example.canada_student_guide.util.LocaleHelper;
 
 public class MainActivity extends AppCompatActivity implements SharedPreferences.OnSharedPreferenceChangeListener {
-    ScrollView guide1Body,guide2Body;
+    ScrollView guide1Body,guide2Body,guide3Body;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         guide1Body = (ScrollView) findViewById(R.id.guide1Body);
         guide2Body = (ScrollView) findViewById(R.id.guide2Body);
+        guide3Body = (ScrollView) findViewById(R.id.guide3Body);
         guide1Body.setVisibility(View.GONE);
         guide2Body.setVisibility(View.GONE);
+        guide3Body.setVisibility(View.GONE);
     }
     public void toggleContents(View view){
         Log.e("toggleContents","toggleContents: "+view.getId() );
@@ -33,6 +35,9 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
                 break;
             case R.id.guide2Layout:
                 guide2Body.setVisibility(guide2Body.isShown() ? View.GONE : View.VISIBLE);
+                break;
+            case R.id.guide3Layout:
+                guide3Body.setVisibility(guide3Body.isShown() ? View.GONE : View.VISIBLE);
                 break;
             default:
                 break;
