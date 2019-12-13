@@ -217,6 +217,11 @@
         </TableLayout>
 
     </ScrollView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/colorAccent"
+        android:visibility="visible"/>
     <!-- Layout 2  end******************************************************************-->
     <!-- Layout 3  start******************************************************************-->
     <LinearLayout
