@@ -203,6 +203,9 @@
                     android:layout_weight="1"
                     android:text="@string/guide23"/>
             </TableRow>
+            <TableRow><Space
+                android:layout_width="1dp"
+                android:layout_height="30dp"/></TableRow>
             <TableRow>
 
                 <TextView
@@ -215,4 +218,7 @@
 
     </ScrollView>
     <!-- Layout 2  end******************************************************************-->
+
+
+
 </LinearLayout>
