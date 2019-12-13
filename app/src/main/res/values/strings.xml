@@ -47,6 +47,8 @@
     <string name="title">Canada Student Guide</string>
     <string name="guide1">IELTS Test Details</string>
     <string name="guide2">Decide On University</string>
+    <string name="guide3">Guaranteed Investment Certificate(GIC)</string>
+
 
     <string name="guide11">Steps for applying IELTS</string>
     <string name="guide12">1.	Log on to www.ieltsidpindia.com.</string>
@@ -64,6 +66,11 @@
     <string name="guide22">If you can, check out the required courses for the programs you’re looking into – they will give you valuable insights into what you will learn.
     </string>
     <string name="guide23">If you have a strong preference for a particular degree upon graduation, research which universities offer that degree for your program(s) of interest. But remember, when you graduate, employers are typically more interested in your skills and potential contributions than the name of your degree.
+</string>
+  <string name="guide31"> Student needs to download, fill, print and then sign the GIC Application Form, then a scanned copy of the signed form needs to be emailed to Scotia Bank on newaccount@scotiabank.com with subject line "Scotiabank Student GIC Program" and below documents in a single PDF file:
+     </string>
+    <string name="guide32">1.) Student\'s Passport Copy (First and Last Page - Self Attested by the student</string>
+    <string name="guide33">2.) Copy of Admission Offer Letter from SPP Institution OR University in Canada
 </string>
 
 

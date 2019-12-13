@@ -218,6 +218,78 @@
 
     </ScrollView>
     <!-- Layout 2  end******************************************************************-->
+    <!-- Layout 3  start******************************************************************-->
+    <LinearLayout
+        android:id="@+id/guide3Layout"
+        style="@style/closedMenuLinearLayout"
+        android:clickable="true"
+        android:onClick="toggleContents">
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/closedMenuHeaderView"
+            android:checked="false" />
+
+
+        <TextView
+            android:id="@+id/guideTitle3"
+            style="@style/closedMenuHeaderView"
+            android:layout_weight="1"
+            android:text="@string/guide3"/>
+        <ImageButton
+            android:id="@+id/imageButton3"
+            style="@style/imageButtons"
+            android:src="@drawable/ic_keyboard_arrow_down_black_24dp"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="20"
+        android:id="@+id/guide3Body">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+        <TableRow>
+
+            <TextView
+                android:id="@+id/subguide31"
+                style="@style/closedMenuTextView"
+                android:layout_weight="1"
+                android:text="@string/guide31"/>
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/subguide32"
+                style="@style/closedMenuTextView"
+                android:layout_weight="1"
+                android:text="@string/guide32"/>
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/subguide33"
+                style="@style/closedMenuTextView"
+                android:layout_weight="1"
+                android:text="@string/guide33"/>
+        </TableRow>
+        <TableRow><Space
+            android:layout_width="1dp"
+            android:layout_height="30dp"/></TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/subguide34"
+                style="@style/highlightContent"
+                android:layout_weight="1"
+                android:text="@string/guide19"/>
+        </TableRow>
+    </TableLayout>
+    </ScrollView>
+    <!-- Layout 3  end******************************************************************-->
 
 
 
