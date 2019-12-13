@@ -59,6 +59,21 @@
     <string name="guide19">Select the checkbox when you completed this step.</string>
 
 
+    <string name="guide21">Depending on your interests, you can narrow down your search by selecting universities that cover concepts that align with your goals.
+    </string>
+    <string name="guide22">If you can, check out the required courses for the programs you’re looking into – they will give you valuable insights into what you will learn.
+    </string>
+    <string name="guide23">If you have a strong preference for a particular degree upon graduation, research which universities offer that degree for your program(s) of interest. But remember, when you graduate, employers are typically more interested in your skills and potential contributions than the name of your degree.
+</string>
+
+
+
+
+
+
+
+
+
     <!-- preferences-->
     <string name="Save_Preferences_summary">Select the check box to save your preferences and values</string>
     <string name="Save_Preferences">Save my preferences</string>
