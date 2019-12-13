@@ -44,7 +44,101 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_weight="20"
-        android:id="@+id/guide1Body"></ScrollView>
+        android:id="@+id/guide1Body">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/subguide11"
+                    style="@style/closedMenuTextView"
+                    android:layout_weight="1"
+                    android:text="@string/guide11"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/subguide12"
+                    style="@style/closedMenuTextView"
+                    android:layout_weight="1"
+                    android:text="@string/guide12"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/subguide13"
+                    style="@style/closedMenuTextView"
+                    android:layout_weight="1"
+                    android:text="@string/guide13"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/subguide14"
+                    style="@style/closedMenuTextView"
+                    android:layout_weight="1"
+                    android:text="@string/guide14"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/subguide15"
+                    style="@style/closedMenuTextView"
+                    android:layout_weight="1"
+                    android:text="@string/guide15"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/subguide16"
+                    style="@style/closedMenuTextView"
+                    android:layout_weight="1"
+                    android:text="@string/guide16"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/subguide17"
+                    style="@style/closedMenuTextView"
+                    android:layout_weight="1"
+                    android:text="@string/guide17"/>
+            </TableRow>
+            <TableRow><Space
+                android:layout_width="1dp"
+                android:layout_height="30dp"/></TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/subguide18"
+                    style="@style/closedMenuTextView"
+                    android:layout_weight="1"
+                    android:text="@string/guide18"/>
+            </TableRow>
+            <TableRow><Space
+                android:layout_width="1dp"
+                android:layout_height="30dp"/></TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/subguide19"
+
+                    style="@style/highlightContent"
+                    android:layout_weight="1"
+
+                    android:text="@string/guide19"/>
+            </TableRow>
+
+
+
+            <!-- everything you already have -->
+
+        </TableLayout>
+
+    </ScrollView>
 
     <View
         android:layout_width="match_parent"

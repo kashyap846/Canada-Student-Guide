@@ -48,6 +48,17 @@
     <string name="guide1">Enter your details</string>
     <string name="guide2">IELTS Test Details</string>
 
+    <string name="guide11">Steps for applying IELTS</string>
+    <string name="guide12">1.	Log on to www.ieltsidpindia.com.</string>
+    <string name="guide13">2.	Select the option "Register for IELTS"</string>
+    <string name="guide14">3.	Select your test date and test city (you will see the seat availability status)</string>
+    <string name="guide15">4.	Complete the on-line application form.</string>
+    <string name="guide16">5.	Pay the test fee by credit card (Master / Visa)</string>
+    <string name="guide17">6.	Get instant seat booking and acknowledgement.</string>
+    <string name="guide18">An overall band score of 6.5, with a minimum score of 6 in each exam section.</string>
+    <string name="guide19">Select the checkbox when you completed this step.</string>
+
+
     <!-- preferences-->
     <string name="Save_Preferences_summary">Select the check box to save your preferences and values</string>
     <string name="Save_Preferences">Save my preferences</string>
