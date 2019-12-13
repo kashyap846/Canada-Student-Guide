@@ -45,8 +45,8 @@
 
     <!--activity main-->
     <string name="title">Canada Student Guide</string>
-    <string name="guide1">Enter your details</string>
-    <string name="guide2">IELTS Test Details</string>
+    <string name="guide1">IELTS Test Details</string>
+    <string name="guide2">Decide On University</string>
 
     <string name="guide11">Steps for applying IELTS</string>
     <string name="guide12">1.	Log on to www.ieltsidpindia.com.</string>

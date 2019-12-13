@@ -6,11 +6,11 @@
 
     android:orientation="vertical"
     tools:context="com.example.cannada_student_guide.MainActivity">
-<!--    android:background="@color/colorBackground"-->
-<!--    android:paddingBottom="@dimen/activity_vertical_margin"-->
-<!--    android:paddingLeft="@dimen/activity_horizontal_margin"-->
-<!--    android:paddingRight="@dimen/activity_horizontal_margin"-->
-<!--    android:paddingTop="@dimen/activity_vertical_margin"-->
+    <!--    android:background="@color/colorBackground"-->
+    <!--    android:paddingBottom="@dimen/activity_vertical_margin"-->
+    <!--    android:paddingLeft="@dimen/activity_horizontal_margin"-->
+    <!--    android:paddingRight="@dimen/activity_horizontal_margin"-->
+    <!--    android:paddingTop="@dimen/activity_vertical_margin"-->
 
 
 
@@ -145,18 +145,23 @@
         android:layout_height="0.2dp"
         android:background="@color/colorAccent"
         android:visibility="visible"/>
-
+<!-- Layout 2  start******************************************************************-->
     <LinearLayout
         android:id="@+id/tip2LinearLayout"
         style="@style/closedMenuLinearLayout"
         android:clickable="true"
         android:onClick="toggleContents">
-
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/closedMenuHeaderView"
+            android:checked="false" />
 
 
         <TextView
             android:id="@+id/tip2Title"
-            style="@style/closedMenuTextView"
+            style="@style/closedMenuHeaderView"
             android:layout_weight="1"
             android:text="@string/guide2"/>
         <ImageButton
@@ -170,5 +175,5 @@
         android:layout_height="80dp"
         android:layout_weight="20"
         android:id="@+id/guide2Body"></ScrollView>
-
+    <!-- Layout 2  end******************************************************************-->
 </LinearLayout>
