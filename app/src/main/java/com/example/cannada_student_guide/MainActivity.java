@@ -21,15 +21,18 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         guide1Body = (ScrollView) findViewById(R.id.guide1Body);
-        // guide2Body = (ScrollView) findViewById(R.id.guide2Body);
+        guide2Body = (ScrollView) findViewById(R.id.guide2Body);
         guide1Body.setVisibility(View.GONE);
-        //guide2Body.setVisibility(View.GONE);
+        guide2Body.setVisibility(View.GONE);
     }
     public void toggleContents(View view){
         Log.e("toggleContents","toggleContents: "+view.getId() );
         switch(view.getId()){
             case R.id.guide1Layout:
                 guide1Body.setVisibility(guide1Body.isShown() ? View.GONE : View.VISIBLE);
+                break;
+            case R.id.guide2Layout:
+                guide2Body.setVisibility(guide2Body.isShown() ? View.GONE : View.VISIBLE);
                 break;
             default:
                 break;

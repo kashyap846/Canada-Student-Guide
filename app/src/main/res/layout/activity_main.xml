@@ -147,7 +147,7 @@
         android:visibility="visible"/>
 <!-- Layout 2  start******************************************************************-->
     <LinearLayout
-        android:id="@+id/tip2LinearLayout"
+        android:id="@+id/guide2Layout"
         style="@style/closedMenuLinearLayout"
         android:clickable="true"
         android:onClick="toggleContents">
@@ -160,12 +160,12 @@
 
 
         <TextView
-            android:id="@+id/tip2Title"
+            android:id="@+id/guideTitle2"
             style="@style/closedMenuHeaderView"
             android:layout_weight="1"
             android:text="@string/guide2"/>
         <ImageButton
-            android:id="@+id/tip2ImageButton"
+            android:id="@+id/imageButton2"
             style="@style/imageButtons"
             android:src="@drawable/ic_keyboard_arrow_down_black_24dp"/>
 
