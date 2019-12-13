@@ -15,7 +15,7 @@ import com.example.canada_student_guide.util.LocaleHelper;
 
 
 
-public class SettingsFragment extends PreferenceFragment implements SharedPreferences.OnSharedPreferenceChangeListener {
+public class SettingsFragment extends PreferenceFragment {
 
 
     private SharedPreferences prefs;
@@ -31,23 +31,5 @@ public class SettingsFragment extends PreferenceFragment implements SharedPrefer
         prefs = PreferenceManager.getDefaultSharedPreferences(getActivity());
     }
 
-    @Override
-    public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
-        Log.e("pref_languages: ", "pref_languages");
-        switch(key)
-        {
-            case "pref_languages":
-                // DO STUFF
-                Log.e("pref_languages: ", "pref_languages");
-                LocaleHelper.setLocale(MainActivity.this, "fr");
 
-                //It is required to recreate the activity to reflect the change in UI.
-                recreate();
-                break;
-
-            case "KEY2":
-                // DO STUFF
-                break;
-        }
-    }
 }

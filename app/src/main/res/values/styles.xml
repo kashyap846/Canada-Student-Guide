@@ -19,7 +19,7 @@
         <item name="android:layout_weight">3</item>
     </style>
 
-    <style name="closedMenuTextView">
+    <style name="closedMenuHeaderView">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">24sp</item>
@@ -31,6 +31,32 @@
         <item name="android:paddingRight">@dimen/menu_horizontal_padding</item>
     </style>
 
+    <style name="closedMenuTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:paddingBottom">@dimen/menu_vertical_padding</item>
+        <item name="android:paddingTop">@dimen/menu_vertical_padding</item>
+        <item name="android:paddingLeft">@dimen/menu_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/menu_horizontal_padding</item>
+    </style>
+
+
+
+    <style name="highlightContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">@color/highlightViolet</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:paddingBottom">@dimen/menu_vertical_padding</item>
+        <item name="android:paddingTop">@dimen/menu_vertical_padding</item>
+        <item name="android:paddingLeft">@dimen/menu_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/menu_horizontal_padding</item>
+    </style>
     <style name="imageButtons">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>

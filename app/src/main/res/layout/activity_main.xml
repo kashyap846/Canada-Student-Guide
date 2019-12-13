@@ -16,20 +16,26 @@
 
 
     <LinearLayout
-        android:id="@+id/tip1LinearLayout"
+        android:id="@+id/guide1Layout"
         style="@style/closedMenuLinearLayout"
         android:clickable="true"
         android:onClick="toggleContents">
 
 
 
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/closedMenuHeaderView"
+            android:checked="false" />
         <TextView
-            android:id="@+id/tip1Title"
-            style="@style/closedMenuTextView"
+            android:id="@+id/guideTitle1"
+            style="@style/closedMenuHeaderView"
             android:layout_weight="1"
             android:text="@string/guide1"/>
         <ImageButton
-            android:id="@+id/tip1ImageButton"
+            android:id="@+id/imageButton1"
             style="@style/imageButtons"
             android:src="@drawable/ic_keyboard_arrow_down_black_24dp"/>
     </LinearLayout>
