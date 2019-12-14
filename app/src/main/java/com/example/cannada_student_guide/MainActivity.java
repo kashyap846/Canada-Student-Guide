@@ -117,16 +117,20 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
     public void onClick(View v) {
         switch(v.getId()){
             case R.id.checkBox1:
-              
+                if(checkBox1.isChecked())
                 Toast.makeText(this, R.string.checkbox1_congrats, Toast.LENGTH_LONG).show();
+
                 break;
             case R.id.checkBox2:
+                if(checkBox2.isChecked())
                 Toast.makeText(this, R.string.checkbox2_congrats, Toast.LENGTH_LONG).show();
                 break;
             case R.id.checkBox3:
+                if(checkBox3.isChecked())
                 Toast.makeText(this, R.string.checkbox3_congrats, Toast.LENGTH_LONG).show();
                 break;
             case R.id.checkBox4:
+                if(checkBox4.isChecked())
                 Toast.makeText(this, R.string.checkbox4_congrats, Toast.LENGTH_LONG).show();
                 break;
             default:
