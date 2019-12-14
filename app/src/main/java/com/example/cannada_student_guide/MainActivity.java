@@ -67,15 +67,39 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
         switch(view.getId()){
             case R.id.guide1Layout:
                 guide1Body.setVisibility(guide1Body.isShown() ? View.GONE : View.VISIBLE);
+                if(guide2Body.isShown())
+                    guide2Body.setVisibility(View.GONE);
+                if(guide3Body.isShown())
+                    guide3Body.setVisibility(View.GONE);
+                if(guide4Body.isShown())
+                    guide4Body.setVisibility(View.GONE);
                 break;
             case R.id.guide2Layout:
                 guide2Body.setVisibility(guide2Body.isShown() ? View.GONE : View.VISIBLE);
+                if(guide1Body.isShown())
+                    guide1Body.setVisibility(View.GONE);
+                if(guide3Body.isShown())
+                    guide3Body.setVisibility(View.GONE);
+                if(guide4Body.isShown())
+                    guide4Body.setVisibility(View.GONE);
                 break;
             case R.id.guide3Layout:
                 guide3Body.setVisibility(guide3Body.isShown() ? View.GONE : View.VISIBLE);
+                if(guide2Body.isShown())
+                    guide2Body.setVisibility(View.GONE);
+                if(guide1Body.isShown())
+                    guide1Body.setVisibility(View.GONE);
+                if(guide4Body.isShown())
+                    guide4Body.setVisibility(View.GONE);
                 break;
             case R.id.guide4Layout:
                 guide4Body.setVisibility(guide4Body.isShown() ? View.GONE : View.VISIBLE);
+                if(guide2Body.isShown())
+                    guide2Body.setVisibility(View.GONE);
+                if(guide3Body.isShown())
+                    guide3Body.setVisibility(View.GONE);
+                if(guide1Body.isShown())
+                    guide1Body.setVisibility(View.GONE);
                 break;
             default:
                 break;
