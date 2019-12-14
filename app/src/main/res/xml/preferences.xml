@@ -7,12 +7,12 @@
             android:defaultValue="true"
             />
         <ListPreference
-        android:key="pref_languages"
-        android:title="@string/language"
-        android:summary="@string/language_summary"
-        android:dialogTitle="@string/language_title"
-        android:entries="@array/languages"
-        android:entryValues="@array/languages_values"
+        android:key="pref_ratings"
+        android:title="@string/feedback"
+        android:summary="@string/feedback_summary"
+        android:dialogTitle="@string/ratings_title"
+        android:entries="@array/ratings_keys"
+        android:entryValues="@array/rating_values"
         android:defaultValue="0" />
 
 

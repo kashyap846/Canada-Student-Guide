@@ -98,6 +98,37 @@
     <string name="Save_Preferences">Save my preferences</string>
     <string name="title_activity_settings">Settings</string>
 
+
+
+
+
+
+    <string name="feedback">Need your feedback</string>
+    <string name="feedback_summary">We need your feedback to serve you better</string>
+    <string name="ratings_title">Ratings?</string>
+    <string name="ratings_keys"></string>
+    <string name="rating_values"></string>
+
+    <string-array name="ratings_keys">
+
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+
+    </string-array>
+    <string-array name="rating_values">
+
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+
     <!-- Preference Titles -->
     <string name="messages_header">Messages</string>
     <string name="sync_header">Sync</string>

@@ -1,6 +1,7 @@
 package com.example.cannada_student_guide;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.preference.PreferenceManager;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -18,6 +19,15 @@ import com.example.canada_student_guide.util.LocaleHelper;
 public class MainActivity extends AppCompatActivity implements SharedPreferences.OnSharedPreferenceChangeListener, View.OnClickListener {
     ScrollView guide1Body,guide2Body,guide3Body,guide4Body;
     CheckBox checkBox1,checkBox2,checkBox3,checkBox4;
+
+
+    private SharedPreferences savedValues,prefs;
+    private boolean rememberUserChnages =true;
+
+    public MainActivity() {
+    }
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,6 +52,13 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
         checkBox2.setOnClickListener(this);
         checkBox3.setOnClickListener(this);
         checkBox4.setOnClickListener(this);
+
+
+        //preferences
+
+        savedValues = getSharedPreferences("SavedValues", MODE_PRIVATE);
+        PreferenceManager.setDefaultValues(this,R.xml.preferences,false);
+        prefs = PreferenceManager.getDefaultSharedPreferences(this);
 
 
     }
