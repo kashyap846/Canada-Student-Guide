@@ -366,7 +366,7 @@
                     android:id="@+id/subguide44"
                     style="@style/closedMenuTextView"
                     android:layout_weight="1"
-                    android:text="@string/guide43"/>
+                    android:text="@string/guide44"/>
             </TableRow>
             <TableRow>
 
@@ -374,7 +374,7 @@
                     android:id="@+id/subguide45"
                     style="@style/closedMenuTextView"
                     android:layout_weight="1"
-                    android:text="@string/guide43"/>
+                    android:text="@string/guide45"/>
             </TableRow>
             <TableRow>
 
@@ -382,7 +382,7 @@
                     android:id="@+id/subguide46"
                     style="@style/closedMenuTextView"
                     android:layout_weight="1"
-                    android:text="@string/guide43"/>
+                    android:text="@string/guide46"/>
             </TableRow>
             <TableRow>
 
@@ -390,7 +390,7 @@
                     android:id="@+id/subguide47"
                     style="@style/closedMenuTextView"
                     android:layout_weight="1"
-                    android:text="@string/guide43"/>
+                    android:text="@string/guide47"/>
             </TableRow>
             <TableRow><Space
                 android:layout_width="1dp"
