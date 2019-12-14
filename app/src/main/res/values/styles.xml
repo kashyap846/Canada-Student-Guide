@@ -6,7 +6,7 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:colorBackground">@color/customColorBackground</item>
         <item name="android:windowActionBar">true</item>
         <item name="android:windowTitleSize">0dp</item>
     </style>
@@ -15,7 +15,7 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:orientation">horizontal</item>
-        <item name="android:background">@color/colorBackground</item>
+        <item name="android:background">@color/customColorBackground</item>
         <item name="android:layout_weight">3</item>
     </style>
 
