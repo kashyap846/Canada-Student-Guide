@@ -86,8 +86,11 @@
     <string name="guide47">7.) Submit clinical records that state you are in good health and complete medical examinations if required</string>
 
 
-
-
+<!--**********checkbox ****************-->
+    <string name="checkbox1_congrats">Congrats for completing IELTS Exam and clearing eligibility</string>
+    <string name="checkbox2_congrats">Congrats for getting Acceptance from College</string>
+    <string name="checkbox3_congrats">Congrats on Completion of GIC and receving the acknowledgement</string>
+    <string name="checkbox4_congrats">Congrats on receving Visa from Canada. Happy Journey</string>
 
 
     <!-- preferences-->

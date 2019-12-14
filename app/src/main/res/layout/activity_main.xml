@@ -19,7 +19,8 @@
         android:id="@+id/guide1Layout"
         style="@style/closedMenuLinearLayout"
         android:clickable="true"
-        android:onClick="toggleContents">
+        android:onClick="toggleContents"
+        android:focusable="true">
 
 
 

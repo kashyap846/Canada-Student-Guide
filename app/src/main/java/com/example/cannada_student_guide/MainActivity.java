@@ -9,13 +9,15 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.CheckBox;
 import android.widget.ScrollView;
 import android.widget.Toast;
 
 import com.example.canada_student_guide.util.LocaleHelper;
 
-public class MainActivity extends AppCompatActivity implements SharedPreferences.OnSharedPreferenceChangeListener {
+public class MainActivity extends AppCompatActivity implements SharedPreferences.OnSharedPreferenceChangeListener, View.OnClickListener {
     ScrollView guide1Body,guide2Body,guide3Body,guide4Body;
+    CheckBox checkBox1,checkBox2,checkBox3,checkBox4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,6 +30,20 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
         guide2Body.setVisibility(View.GONE);
         guide3Body.setVisibility(View.GONE);
         guide4Body.setVisibility(View.GONE);
+
+        //checkboxes
+        checkBox1 = (CheckBox)findViewById(R.id.checkBox1);
+        checkBox2 = (CheckBox)findViewById(R.id.checkBox2);
+        checkBox3 = (CheckBox)findViewById(R.id.checkBox3);
+        checkBox4 = (CheckBox)findViewById(R.id.checkBox4);
+
+        //bind onclick listener
+        checkBox1.setOnClickListener(this);
+        checkBox2.setOnClickListener(this);
+        checkBox3.setOnClickListener(this);
+        checkBox4.setOnClickListener(this);
+
+
     }
     public void toggleContents(View view){
         Log.e("toggleContents","toggleContents: "+view.getId() );
@@ -97,4 +113,27 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
     }
 
 
+    @Override
+    public void onClick(View v) {
+        switch(v.getId()){
+            case R.id.checkBox1:
+              
+                Toast.makeText(this, R.string.checkbox1_congrats, Toast.LENGTH_LONG).show();
+                break;
+            case R.id.checkBox2:
+                Toast.makeText(this, R.string.checkbox2_congrats, Toast.LENGTH_LONG).show();
+                break;
+            case R.id.checkBox3:
+                Toast.makeText(this, R.string.checkbox3_congrats, Toast.LENGTH_LONG).show();
+                break;
+            case R.id.checkBox4:
+                Toast.makeText(this, R.string.checkbox4_congrats, Toast.LENGTH_LONG).show();
+                break;
+            default:
+                break;
+        }
+
+
+
+    }
 }
