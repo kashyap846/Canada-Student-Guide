@@ -188,6 +188,9 @@
                     android:layout_weight="1"
                     android:text="@string/guide21"/>
             </TableRow>
+            <TableRow><Space
+                android:layout_width="1dp"
+                android:layout_height="30dp"/></TableRow>
             <TableRow>
 
                 <TextView
@@ -195,7 +198,11 @@
                     style="@style/closedMenuTextView"
                     android:layout_weight="1"
                     android:text="@string/guide22"/>
+
             </TableRow>
+            <TableRow><Space
+                android:layout_width="1dp"
+                android:layout_height="30dp"/></TableRow>
             <TableRow>
 
                 <TextView
@@ -266,6 +273,9 @@
                 android:layout_weight="1"
                 android:text="@string/guide31"/>
         </TableRow>
+        <TableRow><Space
+            android:layout_width="1dp"
+            android:layout_height="30dp"/></TableRow>
         <TableRow>
 
             <TextView
@@ -274,6 +284,9 @@
                 android:layout_weight="1"
                 android:text="@string/guide32"/>
         </TableRow>
+        <TableRow><Space
+            android:layout_width="1dp"
+            android:layout_height="30dp"/></TableRow>
         <TableRow>
 
             <TextView
@@ -344,6 +357,9 @@
                     android:layout_weight="1"
                     android:text="@string/guide41"/>
             </TableRow>
+            <TableRow><Space
+                android:layout_width="1dp"
+                android:layout_height="30dp"/></TableRow>
             <TableRow>
 
                 <TextView
@@ -352,6 +368,9 @@
                     android:layout_weight="1"
                     android:text="@string/guide42"/>
             </TableRow>
+            <TableRow><Space
+                android:layout_width="1dp"
+                android:layout_height="30dp"/></TableRow>
             <TableRow>
 
                 <TextView
@@ -360,6 +379,9 @@
                     android:layout_weight="1"
                     android:text="@string/guide43"/>
             </TableRow>
+            <TableRow><Space
+                android:layout_width="1dp"
+                android:layout_height="30dp"/></TableRow>
             <TableRow>
 
                 <TextView
@@ -368,6 +390,9 @@
                     android:layout_weight="1"
                     android:text="@string/guide44"/>
             </TableRow>
+            <TableRow><Space
+                android:layout_width="1dp"
+                android:layout_height="30dp"/></TableRow>
             <TableRow>
 
                 <TextView
@@ -376,6 +401,9 @@
                     android:layout_weight="1"
                     android:text="@string/guide45"/>
             </TableRow>
+            <TableRow><Space
+                android:layout_width="1dp"
+                android:layout_height="30dp"/></TableRow>
             <TableRow>
 
                 <TextView
@@ -384,6 +412,9 @@
                     android:layout_weight="1"
                     android:text="@string/guide46"/>
             </TableRow>
+            <TableRow><Space
+                android:layout_width="1dp"
+                android:layout_height="30dp"/></TableRow>
             <TableRow>
 
                 <TextView
