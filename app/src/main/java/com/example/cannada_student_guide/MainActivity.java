@@ -157,4 +157,76 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
 
 
     }
+
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        SharedPreferences.Editor editor = savedValues.edit();
+        Log.e("onPause: ", "onPause");
+        rememberUserChnages= prefs.getBoolean("pref_changes_saved",true);
+        Log.e("rememberUserChnages", String.valueOf(rememberUserChnages));
+        if(rememberUserChnages) {
+            editor.putBoolean("checkbox1", checkBox1.isChecked());
+            Log.e("checkbox1", String.valueOf(checkBox1.isChecked()));
+            editor.putBoolean("checkbox2", checkBox2.isChecked());
+            Log.e("checkbox2", String.valueOf(checkBox2.isChecked()));
+            editor.putBoolean("checkbox3", checkBox3.isChecked());
+            Log.e("checkbox3", String.valueOf(checkBox3.isChecked()));
+            editor.putBoolean("checkbox4", checkBox4.isChecked());
+            Log.e("checkbox4", String.valueOf(checkBox4.isChecked()));
+            editor.commit();
+        }else{
+            editor.clear().commit();
+
+        }
+
+
+
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        SharedPreferences.Editor editor = savedValues.edit();
+        Log.e("onPause: ", "onPause");
+        rememberUserChnages= prefs.getBoolean("pref_changes_saved",true);
+        Log.e("rememberUserChnages", String.valueOf(rememberUserChnages));
+        if(rememberUserChnages) {
+            editor.putBoolean("checkbox1", checkBox1.isChecked());
+            Log.e("checkbox1", String.valueOf(checkBox1.isChecked()));
+            editor.putBoolean("checkbox2", checkBox2.isChecked());
+            Log.e("checkbox2", String.valueOf(checkBox2.isChecked()));
+            editor.putBoolean("checkbox3", checkBox3.isChecked());
+            Log.e("checkbox3", String.valueOf(checkBox3.isChecked()));
+            editor.putBoolean("checkbox4", checkBox4.isChecked());
+            Log.e("checkbox4", String.valueOf(checkBox4.isChecked()));
+            editor.commit();
+        }else{
+            editor.clear().commit();
+
+        }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.e("onResume", "onResume");
+        rememberUserChnages= prefs.getBoolean("pref_changes_saved",true);
+        Log.e("rememberUserChnages", String.valueOf(rememberUserChnages));
+        if(rememberUserChnages) {
+            boolean checkbox1Var = savedValues.getBoolean("checkbox1",false);
+            boolean checkbox2Var = savedValues.getBoolean("checkbox2",false);
+            boolean checkbox3Var = savedValues.getBoolean("checkbox3",false);
+            boolean checkbox4Var = savedValues.getBoolean("checkbox4",false);
+            if(checkbox1Var){checkBox1.setChecked(true);}
+            if(checkbox2Var){checkBox2.setChecked(true);}
+            if(checkbox3Var){checkBox3.setChecked(true);}
+            if(checkbox4Var){checkBox4.setChecked(true);}
+
+        }else{
+            Log.e("false", "false");
+
+        }
+    }
 }
